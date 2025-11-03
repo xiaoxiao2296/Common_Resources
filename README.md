@@ -12,6 +12,9 @@
 - [C/C++环境](#CC环境)
   - [安装地址](#安装地址-2)
   - [安装过程](#安装过程-2)
+- [STM32环境](#STM32环境)
+  - [需要安装](#需要安装容)
+  - [安装过程](#安装过程-3)
 
 ---
 ---
@@ -123,4 +126,19 @@ CMD命令行中输入下列命令
 
 ![alt text](./media/image20.png)
 
+---
+---
+
+# STM32环境
+
+## 需要安装
+1. [C/C++ 的环境](#CC环境)
+2. [STM32CubeMx](https://www.st.com.cn/zh/development-tools/stm32cubemx.html)
+3. [cmake](https://cmake.org/download/)
+4. [VSCODD](https://code.visualstudio.com/Download)
+5. VSCODE插件-STM32CubeIDE for Visual Studio Code
+
+## 安装过程
+1. [参考视频](https://www.bilibili.com/video/BV1QfbpzGENy/?spm_id_from=333.337.search-card.all.click&vd_source=8f939b79f52937d6447ff8ec1fa25fb0)
+2. cmake安装位置需要添加到环境变量（需检查，否则VSCODE 报CMAKE故障）
 
