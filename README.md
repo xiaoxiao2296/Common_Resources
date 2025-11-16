@@ -13,7 +13,7 @@
   - [安装地址](#安装地址-2)
   - [安装过程](#安装过程-2)
 - [STM32环境](#STM32环境)
-  - [需要安装](#需要安装容)
+  - [需要安装](#需要安装)
   - [安装过程](#安装过程-3)
 
 ---
@@ -107,14 +107,14 @@
 ![alt text](./media/image16.png)
 
 ### 下载完成后，推荐解压放在C盘下
-![alt text](./media/image15.png)
+![alt text](./media/image15.png "MinGw的安装路径位置")
 
 ### 配置环境变量
 ![alt text](./media/image17.png)
 
-![alt text](./media/image18.png)
+![alt text](./media/image18.png "编辑系统环境变量path")
 
-![alt text](./media/image19.png)
+![alt text](./media/image19.png "添加MinGw的bin路径")
 
 最后确认配置
 
@@ -124,7 +124,7 @@
 CMD命令行中输入下列命令
 >gcc -v
 
-![alt text](./media/image20.png)
+![alt text](./media/image20.png "MinGw gcc安装成功界面")
 
 ---
 ---
@@ -141,4 +141,10 @@ CMD命令行中输入下列命令
 ## 安装过程
 1. [参考视频](https://www.bilibili.com/video/BV1QfbpzGENy/?spm_id_from=333.337.search-card.all.click&vd_source=8f939b79f52937d6447ff8ec1fa25fb0)
 2. cmake安装位置需要添加到环境变量（需检查，否则VSCODE 报CMAKE故障）
+![alt text](./media/image21.png "cmake安装包获取")
+3. CMD命令行输入cmake验证是否成功（安装过程有添加cmake环境变量的选项 默认是选中）
+![alt text](./media/image22.png "cmake安装成功")
+4. cmake添加用户新增程序文件
+![alt text](./media/image23.png "cmake配置实例")
+
 
