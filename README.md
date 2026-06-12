@@ -9,13 +9,15 @@
 - [GitHub](#github)
   - [访问网站](#访问网站)
   - [网站自动汉化插件安装方法及过程](#网站自动汉化插件安装方法及过程)
-- [C/C++环境](#CC环境)
+- [C/C++环境](#C/C++环境)
   - [安装地址](#安装地址-2)
   - [安装过程](#安装过程-2)
 - [STM32环境](#STM32环境)
   - [需要安装](#需要安装)
   - [安装过程](#安装过程-3)
-
+- [树莓派环境](#树莓派环境)
+  - [环境准备](#环境准备)
+  - [安装过程](#安装过程-4)
 ---
 ---
 
@@ -147,4 +149,15 @@ CMD命令行中输入下列命令
 4. cmake添加用户新增程序文件
 ![alt text](./media/image23.png "cmake配置实例")
 
+---
+---
 
+# 树莓派环境
+
+## 环境准备
+1. SSH工具 [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) 
+2. 树莓派官方烧录工具 [Raspberry Pi Imager](https://www.raspberrypi.com/software/) 
+3. SSH\串口\网口 工具 [mobaxterm](https://mobaxterm.mobatek.net/download-home-edition.html) 
+3. 图形化远程连接 [VNC](https://www.realvnc.com/en/connect/download/viewer/windows/?lai_sr=5-9&lai_sl=l) 
+
+## 安装过程
